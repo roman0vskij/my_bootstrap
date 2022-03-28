@@ -1,0 +1,30 @@
+header .navbar-dark {
+    background-color: #343A40;
+}
+
+header {
+    display: block;
+}
+
+footer {
+    background: #F5F5F5;
+    margin-top: 73px;
+    padding-top: 16px;
+    padding-bottom: 16px;
+    color: #6C757D;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th {
+    position: sticky;
+}
+
+@media screen and (max-width: 575px) {
+    .table-box {
+        overflow-x: scroll;
+    }
+}
